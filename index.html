@@ -5,101 +5,108 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="refresh" content="0; url=en/index.html">
     <title>MB Architecture and Design</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" type="image/png" href="assets/images/favicon.png">
     <style>
-        * {
+        body {
             margin: 0;
             padding: 0;
-            box-sizing: border-box;
-        }
-        body {
-            font-family: 'Cairo', -apple-system, BlinkMacSystemFont, sans-serif;
-            background: linear-gradient(135deg, #2d5a3d, #6b7b4f);
             min-height: 100vh;
             display: flex;
             align-items: center;
             justify-content: center;
             flex-direction: column;
-            color: white;
+            background: linear-gradient(135deg, #1a1a2e 0%, #0f3460 100%);
+            font-family: 'Cairo', sans-serif;
+        }
+        .splash {
             text-align: center;
+            padding: 60px;
         }
-        .logo {
-            font-size: 4rem;
+        .splash-logo {
+            width: 200px;
+            height: auto;
+            margin-bottom: 30px;
+            animation: float 3s ease-in-out infinite;
+        }
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-15px); }
+        }
+        .splash h1 {
+            color: white;
+            font-size: 2.5rem;
+            margin-bottom: 10px;
             font-weight: 700;
-            margin-bottom: 1rem;
-            background: white;
-            width: 100px;
-            height: 100px;
-            border-radius: 20px;
+        }
+        .splash p {
+            color: rgba(255,255,255,0.7);
+            font-size: 1.2rem;
+            margin-bottom: 40px;
+        }
+        .lang-buttons {
             display: flex;
-            align-items: center;
+            gap: 20px;
             justify-content: center;
-            color: #2d5a3d;
-            box-shadow: 0 10px 40px rgba(0,0,0,0.3);
-        }
-        h1 {
-            font-size: 2rem;
-            margin-bottom: 0.5rem;
-        }
-        p {
-            opacity: 0.8;
-            margin-bottom: 2rem;
-        }
-        .languages {
-            display: flex;
-            gap: 1rem;
             flex-wrap: wrap;
-            justify-content: center;
         }
         .lang-btn {
             display: flex;
             align-items: center;
-            gap: 0.5rem;
-            padding: 15px 30px;
+            gap: 10px;
+            padding: 18px 35px;
             background: white;
-            color: #2d5a3d;
+            color: #1a1a2e;
             text-decoration: none;
             border-radius: 50px;
             font-weight: 600;
-            transition: transform 0.3s, box-shadow 0.3s;
-            box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.2);
         }
         .lang-btn:hover {
             transform: translateY(-5px);
-            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.3);
         }
-        .lang-flag {
+        .lang-btn span.flag {
             font-size: 1.5rem;
         }
     </style>
 </head>
 <body>
-    <div class="logo">MB</div>
-    <h1>MB Architecture & Design</h1>
-    <p>Select your language / اختر لغتك</p>
-    
-    <div class="languages">
-        <a href="ar/index.html" class="lang-btn">
-            <span class="lang-flag">🇩🇿</span>
-            <span>العربية</span>
-        </a>
-        <a href="fr/index.html" class="lang-btn">
-            <span class="lang-flag">🇫🇷</span>
-            <span>Français</span>
-        </a>
-        <a href="en/index.html" class="lang-btn">
-            <span class="lang-flag">🇬🇧</span>
-            <span>English</span>
-        </a>
+    <div class="splash">
+        <img src="assets/images/logo.png" alt="MB Architecture" class="splash-logo">
+        <h1>MB Architecture & Design</h1>
+        <p>Select your language / اختر لغتك</p>
+        
+        <div class="lang-buttons">
+            <a href="ar/index.html" class="lang-btn">
+                <span class="flag">🇩🇿</span>
+                <span>العربية</span>
+            </a>
+            <a href="fr/index.html" class="lang-btn">
+                <span class="flag">🇫🇷</span>
+                <span>Français</span>
+            </a>
+            <a href="en/index.html" class="lang-btn">
+                <span class="flag">🇬🇧</span>
+                <span>English</span>
+            </a>
+        </div>
     </div>
     
     <script>
-        // Auto-detect language based on browser
+        // Auto-detect language
         const userLang = navigator.language || navigator.userLanguage;
         const lang = userLang.split('-')[0];
         
-        // If user prefers Arabic, redirect to Arabic version
         if (lang === 'ar') {
             window.location.href = 'ar/index.html';
+        } else if (lang === 'fr') {
+            window.location.href = 'fr/index.html';
         }
     </script>
 </body>
