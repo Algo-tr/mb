@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="MB Architecture and Design - Bureau d'études d'ingénierie agréé. Design architectural professionnel, modélisation 3D, permis de construire et consultations d'ingénierie en Algérie.">
+    <title>MB Architecture and Design - Bureau d'Études d'Ingénierie</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo">
+                <div class="logo-icon">MB</div>
+                <div class="logo-text">
+                    <span class="brand">MB Architecture</span>
+                    <span class="tagline">Design & Engineering</span>
+                </div>
+            </a>
+            
+            <nav class="nav-menu">
+                <ul class="nav-links">
+                    <li><a href="index.html" class="active">Accueil</a></li>
+                    <li><a href="about.html">À Propos</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="projects.html">Projets</a></li>
+                    <li><a href="process.html">Processus</a></li>
+                    <li><a href="pricing.html">Tarifs</a></li>
+                    <li><a href="docs.html">Documents</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                
+                <div class="lang-selector">
+                    <span class="lang-flag">🇫🇷</span>
+                    <span class="lang-current">FR</span>
+                    <div class="lang-dropdown">
+                        <a href="../ar/index.html"><span class="lang-flag">🇩🇿</span> العربية</a>
+                        <a href="index.html"><span class="lang-flag">🇫🇷</span> Français</a>
+                        <a href="../en/index.html"><span class="lang-flag">🇬🇧</span> English</a>
+                    </div>
+                </div>
+            </nav>
+            
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <i class="fas fa-award"></i>
+                    <span>Bureau d'Études Agréé</span>
+                </div>
+                <h1 class="hero-title">
+                    Transformons votre <span>vision</span> en réalité architecturale
+                </h1>
+                <p class="hero-description">
+                    MB Architecture and Design offre des services d'ingénierie complets alliant créativité architecturale et précision technique. De la conception initiale à la livraison finale, nous vous garantissons une expérience exceptionnelle et un projet qui dépasse vos attentes.
+                </p>
+                <div class="hero-buttons">
+                    <a href="contact.html" class="btn btn-primary">
+                        <i class="fas fa-paper-plane"></i>
+                        Consultation Gratuite
+                    </a>
+                    <a href="projects.html" class="btn btn-secondary">
+                        <i class="fas fa-images"></i>
+                        Nos Réalisations
+                    </a>
+                </div>
+                
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="150">150+</div>
+                        <div class="stat-label">Projets Réalisés</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="12">12+</div>
+                        <div class="stat-label">Années d'Expérience</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="98">98%</div>
+                        <div class="stat-label">Clients Satisfaits</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hero-visual">
+                <div class="hero-image-wrapper">
+                    <div class="hero-image" style="background: linear-gradient(135deg, #2d5a3d, #6b7b4f); display: flex; align-items: center; justify-content: center;">
+                        <i class="fas fa-drafting-compass" style="font-size: 8rem; color: rgba(255,255,255,0.3);"></i>
+                    </div>
+                </div>
+                <div class="hero-floating-card card-1">
+                    <div class="floating-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <div class="floating-text">Design Villas</div>
+                    <div class="floating-subtext">Solutions résidentielles luxueuses</div>
+                </div>
+                <div class="hero-floating-card card-2">
+                    <div class="floating-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <div class="floating-text">Projets Commerciaux</div>
+                    <div class="floating-subtext">Designs contemporains</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Problem-Solution Section -->
+    <section class="section problem-solution">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">
+                    <i class="fas fa-lightbulb"></i>
+                    <span>Pourquoi un architecte?</span>
+                </div>
+                <h2 class="section-title">Tout projet de construction sans étude architecturale claire est un risque direct</h2>
+                <p class="section-subtitle">Les plans architecturaux ne sont pas de simples dessins, mais une stratégie d'exécution complète garantissant que votre projet correspond à vos attentes</p>
+            </div>
+            
+            <div class="ps-grid">
+                <div class="ps-content problem">
+                    <h3><i class="fas fa-exclamation-triangle" style="color: #dc3545;"></i> Problèmes courants sans architecte</h3>
+                    <div class="ps-list">
+                        <div class="ps-item">
+                            <div class="ps-icon"><i class="fas fa-times"></i></div>
+                            <div>
+                                <strong>Perte d'espace</strong>
+                                <p>Distribution non optimale entraînant une perte de surfaces précieuses</p>
+                            </div>
+                        </div>
+                        <div class="ps-item">
+                            <div class="ps-icon"><i class="fas fa-times"></i></div>
+                            <div>
+                                <strong>Erreurs coûteuses</strong>
+                                <p>Modifications imprévues doublant le budget alloué</p>
+                            </div>
+                        </div>
+                        <div class="ps-item">
+                            <div class="ps-icon"><i class="fas fa-times"></i></div>
+                            <div>
+                                <strong>Infractions légales</strong>
+                                <p>Ignorance des lois d'urbanisme causant des problèmes administratifs</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="ps-content solution">
+                    <h3><i class="fas fa-check-circle" style="color: #2d5a3d;"></i> La solution MB Architecture</h3>
+                    <div class="ps-list">
+                        <div class="ps-item">
+                            <div class="ps-icon"><i class="fas fa-check"></i></div>
+                            <div>
+                                <strong>Optimisation de l'espace</strong>
+                                <p>Design intelligent maximisant chaque centimètre</p>
+                            </div>
+                        </div>
+                        <div class="ps-item">
+                            <div class="ps-icon"><i class="fas fa-check"></i></div>
+                            <div>
+                                <strong>Vision claire avant exécution</strong>
+                                <p>Modèles 3D pour visualiser votre projet avant le début</p>
+                            </div>
+                        </div>
+                        <div class="ps-item">
+                            <div class="ps-icon"><i class="fas fa-check"></i></div>
+                            <div>
+                                <strong>Conformité totale</strong>
+                                <p>Obtention garantie de toutes les autorisations requises</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="section why-us">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">
+                    <i class="fas fa-star"></i>
+                    <span>Pourquoi nous?</span>
+                </div>
+                <h2 class="section-title">Des avantages qui font la différence</h2>
+            </div>
+            
+            <div class="why-grid">
+                <div class="why-card">
+                    <div class="why-icon"><i class="fas fa-graduation-cap"></i></div>
+                    <h4>Expérience Approfondie</h4>
+                    <p>Plus de 12 ans d'expérience en design architectural avec un bilan impressionnant de réussites</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-icon"><i class="fas fa-certificate"></i></div>
+                    <h4>Bureau Agréé</h4>
+                    <p>Bureau d'études officiellement reconnu garantissant un partenaire fiable et légal</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-icon"><i class="fas fa-cube"></i></div>
+                    <h4>Design 3D</h4>
+                    <p>Visualisez votre projet avant construction grâce à des modèles 3D réalistes</p>
+                </div>
+                <div class="why-card">
+                    <div class="why-icon"><i class="fas fa-handshake"></i></div>
+                    <h4>Accompagnement Complet</h4>
+                    <p>Suivi technique continu et service après-vente exceptionnel</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section section-light services">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">
+                    <i class="fas fa-tools"></i>
+                    <span>Nos Services</span>
+                </div>
+                <h2 class="section-title">Services d'ingénierie complets</h2>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-image"><i class="fas fa-drafting-compass"></i></div>
+                    <div class="service-content">
+                        <h4>Design Architectural</h4>
+                        <p>Plans architecturaux professionnels incluant plans d'étages, façades et coupes</p>
+                        <a href="services.html" class="service-link">En savoir plus <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-image"><i class="fas fa-cube"></i></div>
+                    <div class="service-content">
+                        <h4>Modélisation 3D</h4>
+                        <p>Modèles 3D réalistes permettant de visualiser votre projet avant construction</p>
+                        <a href="services.html" class="service-link">En savoir plus <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-image"><i class="fas fa-file-signature"></i></div>
+                    <div class="service-content">
+                        <h4>Permis de Construire</h4>
+                        <p>Dossiers complets de permis de construire prêts au dépôt avec suivi administratif</p>
+                        <a href="services.html" class="service-link">En savoir plus <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-image"><i class="fas fa-couch"></i></div>
+                    <div class="service-content">
+                        <h4>Design Intérieur</h4>
+                        <p>Conceptions intérieures modernes alliant esthétique et fonctionnalité</p>
+                        <a href="services.html" class="service-link">En savoir plus <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-image"><i class="fas fa-hard-hat"></i></div>
+                    <div class="service-content">
+                        <h4>Supervision Technique</h4>
+                        <p>Surveillance continue du chantier garantissant l'exécution selon les plans</p>
+                        <a href="services.html" class="service-link">En savoir plus <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-image"><i class="fas fa-file-contract"></i></div>
+                    <div class="service-content">
+                        <h4>Documents d'Urbanisme</h4>
+                        <p>Certificats de division, conformité, permis de démolition et lotissement</p>
+                        <a href="services.html" class="service-link">En savoir plus <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Prêt à concrétiser votre projet?</h2>
+            <p>Obtenez une consultation gratuite avec notre équipe d'experts</p>
+            <div class="hero-buttons" style="justify-content: center;">
+                <a href="contact.html" class="btn btn-white">
+                    <i class="fas fa-paper-plane"></i>
+                    Contactez-nous
+                </a>
+                <a href="tel:+213555000000" class="btn btn-gold">
+                    <i class="fas fa-phone"></i>
+                    Appelez directement
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">
+                        <div class="logo-icon">MB</div>
+                        <div class="logo-text">
+                            <span class="brand" style="color: white;">MB Architecture</span>
+                            <span class="tagline" style="color: rgba(255,255,255,0.6);">Design & Engineering</span>
+                        </div>
+                    </a>
+                    <p>Bureau d'études spécialisé en design architectural et ingénierie. Nous transformons vos idées en projets exceptionnels.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links-section">
+                    <h4 class="footer-title">Liens Rapides</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="about.html">À Propos</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="projects.html">Projets</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links-section">
+                    <h4 class="footer-title">Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="services.html">Design Architectural</a></li>
+                        <li><a href="services.html">Modélisation 3D</a></li>
+                        <li><a href="services.html">Permis de Construire</a></li>
+                        <li><a href="services.html">Design Intérieur</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h4 class="footer-title">Contact</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> Alger, Algérie</p>
+                    <p><i class="fas fa-phone"></i> +213 555 000 000</p>
+                    <p><i class="fas fa-envelope"></i> contact@mbarchitecture.dz</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p class="footer-copyright">© 2021-2026 MB Architecture and Design. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../assets/js/app.js"></script>
+</body>
+</html>
