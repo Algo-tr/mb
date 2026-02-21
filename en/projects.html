@@ -3,39 +3,414 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projects - MB Architecture and Design</title>
+    <meta name="description" content="MB Architecture Projects - Browse our portfolio of residential, commercial, and collective housing projects in Algeria.">
+    <title>Our Projects - MB Architecture and Design</title>
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body>
+    <!-- Header -->
     <header class="header">
         <div class="container">
-            <a href="index.html" class="logo"><div class="logo-icon">MB</div><div class="logo-text"><span class="brand">MB Architecture</span><span class="tagline">Design & Engineering</span></div></a>
+            <a href="index.html" class="logo">
+                <div class="logo-icon">MB</div>
+                <div class="logo-text">
+                    <span class="brand">MB Architecture</span>
+                    <span class="tagline">Design & Engineering</span>
+                </div>
+            </a>
+            
             <nav class="nav-menu">
                 <ul class="nav-links">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="services.html">Services</a></li>
-                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="projects.html" class="active">Projects</a></li>
                     <li><a href="process.html">Process</a></li>
                     <li><a href="pricing.html">Pricing</a></li>
                     <li><a href="docs.html">Documents</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
-                <div class="lang-selector"><span class="lang-flag">🇬🇧</span><span class="lang-current">EN</span></div>
+                
+                <div class="lang-selector">
+                    <span class="lang-flag">🇬🇧</span>
+                    <span class="lang-current">EN</span>
+                    <div class="lang-dropdown">
+                        <a href="../ar/projects.html"><span class="lang-flag">🇩🇿</span> العربية</a>
+                        <a href="../fr/projects.html"><span class="lang-flag">🇫🇷</span> Français</a>
+                        <a href="projects.html"><span class="lang-flag">🇬🇧</span> English</a>
+                    </div>
+                </div>
             </nav>
+            
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </div>
     </header>
-    <section class="page-header"><div class="container"><h1>Projects</h1></div></section>
-    <section class="section">
+
+    <!-- Page Header -->
+    <section class="page-header">
         <div class="container">
-            <div class="section-header"><h2 class="section-title">MB Architecture and Design</h2><p class="section-subtitle">Licensed Engineering Office - Algiers, Algeria</p></div>
+            <h1>Our Projects</h1>
+            <p class="page-header-subtitle">Explore our portfolio of exceptional architectural achievements</p>
         </div>
     </section>
-    <section class="cta-section"><div class="container"><h2>Contact Us</h2><a href="contact.html" class="btn btn-white">Contact</a></div></section>
-    <footer class="footer"><div class="container"><div class="footer-bottom"><p class="footer-copyright">© 2021-2026 MB Architecture and Design. All rights reserved.</p></div></div></footer>
+
+    <!-- Projects Stats -->
+    <section class="section">
+        <div class="container">
+            <div class="projects-stats">
+                <div class="project-stat">
+                    <div class="project-stat-icon"><i class="fas fa-home"></i></div>
+                    <div class="project-stat-number">85+</div>
+                    <div class="project-stat-label">Individual Housing</div>
+                </div>
+                <div class="project-stat">
+                    <div class="project-stat-icon"><i class="fas fa-building"></i></div>
+                    <div class="project-stat-number">45+</div>
+                    <div class="project-stat-label">Collective Housing</div>
+                </div>
+                <div class="project-stat">
+                    <div class="project-stat-icon"><i class="fas fa-store"></i></div>
+                    <div class="project-stat-number">25+</div>
+                    <div class="project-stat-label">Commercial Projects</div>
+                </div>
+                <div class="project-stat">
+                    <div class="project-stat-icon"><i class="fas fa-trophy"></i></div>
+                    <div class="project-stat-number">150+</div>
+                    <div class="project-stat-label">Total Projects</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Individual Housing Section -->
+    <section class="section section-light" id="individual">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">
+                    <i class="fas fa-home"></i>
+                    <span>Individual Housing</span>
+                </div>
+                <h2 class="section-title">Villas & Private Residences</h2>
+                <p class="section-subtitle">Custom-designed homes that reflect your lifestyle and aspirations</p>
+            </div>
+            
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder" style="background: linear-gradient(135deg, #2d5a3d, #4a7c5b);">
+                            <i class="fas fa-home"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <span class="project-category">Villa</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h4>Modern Villa Hydra</h4>
+                        <p class="project-location"><i class="fas fa-map-marker-alt"></i> Hydra, Algiers</p>
+                        <p class="project-description">A stunning contemporary villa featuring clean lines, open spaces, and sustainable design principles. The project includes a rooftop terrace and integrated smart home systems.</p>
+                        <div class="project-details">
+                            <span><i class="fas fa-ruler-combined"></i> 450 m²</span>
+                            <span><i class="fas fa-bed"></i> 5 Bedrooms</span>
+                            <span><i class="fas fa-calendar"></i> 2024</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder" style="background: linear-gradient(135deg, #5a4a3d, #8b7355);">
+                            <i class="fas fa-home"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <span class="project-category">Villa</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h4>Elegant Villa Bab Ezzouar</h4>
+                        <p class="project-location"><i class="fas fa-map-marker-alt"></i> Bab Ezzouar, Algiers</p>
+                        <p class="project-description">A luxurious family residence blending modern aesthetics with traditional Algerian architectural elements. Features a landscaped garden and swimming pool.</p>
+                        <div class="project-details">
+                            <span><i class="fas fa-ruler-combined"></i> 380 m²</span>
+                            <span><i class="fas fa-bed"></i> 4 Bedrooms</span>
+                            <span><i class="fas fa-calendar"></i> 2023</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder" style="background: linear-gradient(135deg, #3d5a5a, #5a8b8b);">
+                            <i class="fas fa-home"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <span class="project-category">Villa</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h4>Contemporary Villa Dely Ibrahim</h4>
+                        <p class="project-location"><i class="fas fa-map-marker-alt"></i> Dely Ibrahim, Algiers</p>
+                        <p class="project-description">A minimalist masterpiece designed for a young family. The open-plan layout maximizes natural light and creates seamless indoor-outdoor living spaces.</p>
+                        <div class="project-details">
+                            <span><i class="fas fa-ruler-combined"></i> 320 m²</span>
+                            <span><i class="fas fa-bed"></i> 4 Bedrooms</span>
+                            <span><i class="fas fa-calendar"></i> 2023</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Collective Housing Section -->
+    <section class="section" id="collective">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">
+                    <i class="fas fa-building"></i>
+                    <span>Collective Housing</span>
+                </div>
+                <h2 class="section-title">Apartment Buildings & Complexes</h2>
+                <p class="section-subtitle">Modern residential developments designed for community living</p>
+            </div>
+            
+            <div class="projects-grid">
+                <!-- Project 4 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder" style="background: linear-gradient(135deg, #4a5a6d, #6b7b8f);">
+                            <i class="fas fa-building"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <span class="project-category">Apartment Complex</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h4>Les Jardins de Cheraga</h4>
+                        <p class="project-location"><i class="fas fa-map-marker-alt"></i> Chéraga, Algiers</p>
+                        <p class="project-description">A premium residential complex featuring 24 luxury apartments with modern amenities, underground parking, and communal gardens.</p>
+                        <div class="project-details">
+                            <span><i class="fas fa-door-open"></i> 24 Units</span>
+                            <span><i class="fas fa-ruler-combined"></i> 2,800 m²</span>
+                            <span><i class="fas fa-calendar"></i> 2024</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder" style="background: linear-gradient(135deg, #5d6d5d, #7b8f7b);">
+                            <i class="fas fa-building"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <span class="project-category">Apartment Complex</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h4>Residence El Biar</h4>
+                        <p class="project-location"><i class="fas fa-map-marker-alt"></i> El Biar, Algiers</p>
+                        <p class="project-description">An elegant 5-story residential building with panoramic views of the bay. Features energy-efficient design and high-quality finishes throughout.</p>
+                        <div class="project-details">
+                            <span><i class="fas fa-door-open"></i> 18 Units</span>
+                            <span><i class="fas fa-ruler-combined"></i> 2,200 m²</span>
+                            <span><i class="fas fa-calendar"></i> 2023</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder" style="background: linear-gradient(135deg, #6d5a4a, #8f7b6b);">
+                            <i class="fas fa-building"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <span class="project-category">Apartment Complex</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h4>Residence Les Pins</h4>
+                        <p class="project-location"><i class="fas fa-map-marker-alt"></i> Algiers</p>
+                        <p class="project-description">A contemporary residential development surrounded by pine trees. Offers spacious apartments with large terraces and sustainable building features.</p>
+                        <div class="project-details">
+                            <span><i class="fas fa-door-open"></i> 32 Units</span>
+                            <span><i class="fas fa-ruler-combined"></i> 3,500 m²</span>
+                            <span><i class="fas fa-calendar"></i> 2022</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Commercial Projects Section -->
+    <section class="section section-light" id="commercial">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">
+                    <i class="fas fa-store"></i>
+                    <span>Commercial Projects</span>
+                </div>
+                <h2 class="section-title">Business & Retail Spaces</h2>
+                <p class="section-subtitle">Professional spaces designed for success and functionality</p>
+            </div>
+            
+            <div class="projects-grid">
+                <!-- Project 7 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder" style="background: linear-gradient(135deg, #5a4a6d, #7b6b8f);">
+                            <i class="fas fa-store"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <span class="project-category">Office Building</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h4>Business Center Algiers</h4>
+                        <p class="project-location"><i class="fas fa-map-marker-alt"></i> Algiers Center</p>
+                        <p class="project-description">A modern office building designed for contemporary business needs. Features flexible floor plans, meeting rooms, and state-of-the-art facilities.</p>
+                        <div class="project-details">
+                            <span><i class="fas fa-door-open"></i> 12 Offices</span>
+                            <span><i class="fas fa-ruler-combined"></i> 1,800 m²</span>
+                            <span><i class="fas fa-calendar"></i> 2024</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 8 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder" style="background: linear-gradient(135deg, #6d5a5a, #8f7b7b);">
+                            <i class="fas fa-store"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <span class="project-category">Retail</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h4>Shopping Complex Bir Mourad</h4>
+                        <p class="project-location"><i class="fas fa-map-marker-alt"></i> Bir Mourad Rais, Algiers</p>
+                        <p class="project-description">A vibrant retail complex with multiple storefronts, food court, and entertainment facilities. Designed for high foot traffic and customer comfort.</p>
+                        <div class="project-details">
+                            <span><i class="fas fa-store"></i> 28 Shops</span>
+                            <span><i class="fas fa-ruler-combined"></i> 4,200 m²</span>
+                            <span><i class="fas fa-calendar"></i> 2023</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 9 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder" style="background: linear-gradient(135deg, #4a6d5a, #6b8f7b);">
+                            <i class="fas fa-store"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <span class="project-category">Restaurant</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h4>Restaurant Complex</h4>
+                        <p class="project-location"><i class="fas fa-map-marker-alt"></i> Zéralda, Algiers</p>
+                        <p class="project-description">A stunning restaurant complex with indoor and outdoor seating areas. Features modern kitchen facilities and atmospheric design for an exceptional dining experience.</p>
+                        <div class="project-details">
+                            <span><i class="fas fa-utensils"></i> 200 Seats</span>
+                            <span><i class="fas fa-ruler-combined"></i> 650 m²</span>
+                            <span><i class="fas fa-calendar"></i> 2023</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Have a Project in Mind?</h2>
+            <p>Let's discuss how we can bring your vision to life</p>
+            <div class="hero-buttons" style="justify-content: center;">
+                <a href="contact.html" class="btn btn-white">
+                    <i class="fas fa-paper-plane"></i>
+                    Start Your Project
+                </a>
+                <a href="services.html" class="btn btn-gold">
+                    <i class="fas fa-tools"></i>
+                    Our Services
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">
+                        <div class="logo-icon">MB</div>
+                        <div class="logo-text">
+                            <span class="brand" style="color: white;">MB Architecture</span>
+                            <span class="tagline" style="color: rgba(255,255,255,0.6);">Design & Engineering</span>
+                        </div>
+                    </a>
+                    <p>Engineering office specialized in architectural design. We transform your ideas into exceptional projects.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links-section">
+                    <h4 class="footer-title">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links-section">
+                    <h4 class="footer-title">Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="services.html">Architectural Design</a></li>
+                        <li><a href="services.html">3D Modeling</a></li>
+                        <li><a href="services.html">Building Permits</a></li>
+                        <li><a href="services.html">Interior Design</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h4 class="footer-title">Contact</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> Algiers, Algeria</p>
+                    <p><i class="fas fa-phone"></i> +213 555 000 000</p>
+                    <p><i class="fas fa-envelope"></i> contact@mbarchitecture.dz</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p class="footer-copyright">© 2021-2026 MB Architecture and Design. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
     <script src="../assets/js/app.js"></script>
 </body>
 </html>

@@ -3,14 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Services d'ingénierie complets - Design architectural, modélisation 3D, permis de construire, design intérieur et supervision technique.">
     <title>Services - MB Architecture and Design</title>
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body>
+    <!-- Header -->
     <header class="header">
         <div class="container">
             <a href="index.html" class="logo">
@@ -20,6 +23,7 @@
                     <span class="tagline">Design & Engineering</span>
                 </div>
             </a>
+            
             <nav class="nav-menu">
                 <ul class="nav-links">
                     <li><a href="index.html">Accueil</a></li>
@@ -31,6 +35,7 @@
                     <li><a href="docs.html">Documents</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
+                
                 <div class="lang-selector">
                     <span class="lang-flag">🇫🇷</span>
                     <span class="lang-current">FR</span>
@@ -41,74 +46,161 @@
                     </div>
                 </div>
             </nav>
-            <div class="menu-toggle"><span></span><span></span><span></span></div>
+            
+            <div class="menu-toggle">
+                <span></span><span></span><span></span>
+            </div>
         </div>
     </header>
 
+    <!-- Page Header -->
     <section class="page-header">
         <div class="container">
             <h1>Nos Services</h1>
             <p>Solutions architecturales complètes de la conception à la livraison</p>
+            <div class="breadcrumb">
+                <a href="index.html">Accueil</a>
+                <span>/</span>
+                <span>Services</span>
+            </div>
         </div>
     </section>
 
+    <!-- Services Section -->
     <section class="section">
         <div class="container">
+            <div class="section-header">
+                <div class="section-badge">
+                    <i class="fas fa-tools"></i>
+                    <span>Nos Services</span>
+                </div>
+                <h2 class="section-title">Services d'ingénierie complets</h2>
+                <p class="section-subtitle">Nous offrons une gamme complète de services architecturaux pour répondre à tous vos besoins</p>
+            </div>
+            
             <div class="services-grid">
+                <!-- Service 1: Design Architectural -->
                 <div class="service-card">
-                    <div class="service-image"><i class="fas fa-drafting-compass"></i></div>
+                    <div class="service-image">
+                        <i class="fas fa-drafting-compass"></i>
+                    </div>
                     <div class="service-content">
                         <h4>Design Architectural</h4>
-                        <p>Plans architecturaux professionnels incluant plans d'étages, façades et coupes transversales selon vos besoins</p>
+                        <p>Plans architecturaux professionnels incluant plans d'étages, façades, coupes transversales et détails constructifs. Nous transformons votre vision en plans précis et réalisables.</p>
+                        <ul style="margin: 15px 0; padding-left: 20px; color: #666;">
+                            <li>Plans d'étages détaillés</li>
+                            <li>Façades et coupes</li>
+                            <li>Plans de coffrage</li>
+                            <li>Détails architecturaux</li>
+                        </ul>
                     </div>
                 </div>
+                
+                <!-- Service 2: Modélisation 3D -->
                 <div class="service-card">
-                    <div class="service-image"><i class="fas fa-cube"></i></div>
+                    <div class="service-image">
+                        <i class="fas fa-cube"></i>
+                    </div>
                     <div class="service-content">
                         <h4>Modélisation 3D</h4>
-                        <p>Modèles 3D réalistes vous permettant de visualiser votre projet avant le début de la construction</p>
+                        <p>Modèles 3D réalistes vous permettant de visualiser votre projet avant le début de la construction. Explorez chaque détail de votre future réalisation.</p>
+                        <ul style="margin: 15px 0; padding-left: 20px; color: #666;">
+                            <li>Rendus photoréalistes</li>
+                            <li>Visites virtuelles</li>
+                            <li>Animation 3D</li>
+                            <li>Maquettes numériques</li>
+                        </ul>
                     </div>
                 </div>
+                
+                <!-- Service 3: Permis de Construire -->
                 <div class="service-card">
-                    <div class="service-image"><i class="fas fa-file-signature"></i></div>
+                    <div class="service-image">
+                        <i class="fas fa-file-signature"></i>
+                    </div>
                     <div class="service-content">
                         <h4>Permis de Construire</h4>
-                        <p>Dossiers complets de permis de construire prêts au dépôt avec suivi des démarches administratives</p>
+                        <p>Dossiers complets de permis de construire prêts au dépôt avec suivi des démarches administratives jusqu'à l'obtention du permis.</p>
+                        <ul style="margin: 15px 0; padding-left: 20px; color: #666;">
+                            <li>Constitution du dossier</li>
+                            <li>Suivi administratif</li>
+                            <li>Dépôt en mairie</li>
+                            <li>Accompagnement complet</li>
+                        </ul>
                     </div>
                 </div>
+                
+                <!-- Service 4: Design Intérieur -->
                 <div class="service-card">
-                    <div class="service-image"><i class="fas fa-couch"></i></div>
+                    <div class="service-image">
+                        <i class="fas fa-couch"></i>
+                    </div>
                     <div class="service-content">
                         <h4>Design Intérieur</h4>
-                        <p>Conceptions intérieures modernes alliant beauté et fonctionnalité selon votre goût personnel</p>
+                        <p>Conceptions intérieures modernes alliant beauté et fonctionnalité selon votre goût personnel. Créez des espaces qui vous ressemblent.</p>
+                        <ul style="margin: 15px 0; padding-left: 20px; color: #666;">
+                            <li>Agencement spatial</li>
+                            <li>Choix des matériaux</li>
+                            <li>Éclairage design</li>
+                            <li>Décoration intérieure</li>
+                        </ul>
                     </div>
                 </div>
+                
+                <!-- Service 5: Supervision Technique -->
                 <div class="service-card">
-                    <div class="service-image"><i class="fas fa-hard-hat"></i></div>
+                    <div class="service-image">
+                        <i class="fas fa-hard-hat"></i>
+                    </div>
                     <div class="service-content">
                         <h4>Supervision Technique</h4>
-                        <p>Surveillance continue du chantier garantissant l'exécution selon les plans approuvés</p>
+                        <p>Surveillance continue du chantier garantissant l'exécution selon les plans approuvés. Assurez la qualité de votre construction.</p>
+                        <ul style="margin: 15px 0; padding-left: 20px; color: #666;">
+                            <li>Suivi de chantier</li>
+                            <li>Contrôle qualité</li>
+                            <li>Rapports réguliers</li>
+                            <li>Résolution de problèmes</li>
+                        </ul>
                     </div>
                 </div>
+                
+                <!-- Service 6: Documents d'Urbanisme -->
                 <div class="service-card">
-                    <div class="service-image"><i class="fas fa-file-contract"></i></div>
+                    <div class="service-image">
+                        <i class="fas fa-file-contract"></i>
+                    </div>
                     <div class="service-content">
                         <h4>Documents d'Urbanisme</h4>
-                        <p>Préparation de tous les documents administratifs: certificats de division, conformité, permis</p>
+                        <p>Préparation de tous les documents administratifs: certificats de division, conformité, permis de démolition et lotissement.</p>
+                        <ul style="margin: 15px 0; padding-left: 20px; color: #666;">
+                            <li>Certificat de division</li>
+                            <li>Certificat de conformité</li>
+                            <li>Permis de démolir</li>
+                            <li>Dossiers de lotissement</li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- CTA Section -->
     <section class="cta-section">
         <div class="container">
             <h2>Besoin d'un de ces services?</h2>
-            <p>Contactez-nous pour une consultation gratuite</p>
-            <a href="contact.html" class="btn btn-white"><i class="fas fa-paper-plane"></i> Demandez maintenant</a>
+            <p>Contactez-nous pour une consultation gratuite et personnalisée</p>
+            <div class="hero-buttons" style="justify-content: center;">
+                <a href="contact.html" class="btn btn-white">
+                    <i class="fas fa-paper-plane"></i> Demandez maintenant
+                </a>
+                <a href="tel:+213555000000" class="btn btn-gold">
+                    <i class="fas fa-phone"></i> Appelez directement
+                </a>
+            </div>
         </div>
     </section>
 
+    <!-- Footer -->
     <footer class="footer">
         <div class="container">
             <div class="footer-grid">
@@ -120,17 +212,36 @@
                             <span class="tagline" style="color: rgba(255,255,255,0.6);">Design & Engineering</span>
                         </div>
                     </a>
-                    <p>Bureau d'études spécialisé en design architectural.</p>
+                    <p>Bureau d'études spécialisé en design architectural et ingénierie.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                    </div>
                 </div>
+                
                 <div class="footer-links-section">
                     <h4 class="footer-title">Liens Rapides</h4>
                     <ul class="footer-links">
                         <li><a href="index.html">Accueil</a></li>
                         <li><a href="about.html">À Propos</a></li>
                         <li><a href="services.html">Services</a></li>
+                        <li><a href="projects.html">Projets</a></li>
                         <li><a href="contact.html">Contact</a></li>
                     </ul>
                 </div>
+                
+                <div class="footer-links-section">
+                    <h4 class="footer-title">Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="services.html">Design Architectural</a></li>
+                        <li><a href="services.html">Modélisation 3D</a></li>
+                        <li><a href="services.html">Permis de Construire</a></li>
+                        <li><a href="services.html">Design Intérieur</a></li>
+                    </ul>
+                </div>
+                
                 <div class="footer-contact">
                     <h4 class="footer-title">Contact</h4>
                     <p><i class="fas fa-map-marker-alt"></i> Alger, Algérie</p>
@@ -138,11 +249,13 @@
                     <p><i class="fas fa-envelope"></i> contact@mbarchitecture.dz</p>
                 </div>
             </div>
+            
             <div class="footer-bottom">
                 <p class="footer-copyright">© 2021-2026 MB Architecture and Design. Tous droits réservés.</p>
             </div>
         </div>
     </footer>
+
     <script src="../assets/js/app.js"></script>
 </body>
 </html>

@@ -3,16 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Découvrez nos réalisations architecturales - Villas, immeubles et projets commerciaux réalisés par MB Architecture and Design.">
     <title>Projets - MB Architecture and Design</title>
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body>
+    <!-- Header -->
     <header class="header">
         <div class="container">
-            <a href="index.html" class="logo"><div class="logo-icon">MB</div><div class="logo-text"><span class="brand">MB Architecture</span><span class="tagline">Design & Engineering</span></div></a>
+            <a href="index.html" class="logo">
+                <div class="logo-icon">MB</div>
+                <div class="logo-text">
+                    <span class="brand">MB Architecture</span>
+                    <span class="tagline">Design & Engineering</span>
+                </div>
+            </a>
+            
             <nav class="nav-menu">
                 <ul class="nav-links">
                     <li><a href="index.html">Accueil</a></li>
@@ -24,51 +35,283 @@
                     <li><a href="docs.html">Documents</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
-                <div class="lang-selector"><span class="lang-flag">🇫🇷</span><span class="lang-current">FR</span></div>
+                
+                <div class="lang-selector">
+                    <span class="lang-flag">🇫🇷</span>
+                    <span class="lang-current">FR</span>
+                    <div class="lang-dropdown">
+                        <a href="../ar/projects.html"><span class="lang-flag">🇩🇿</span> العربية</a>
+                        <a href="projects.html"><span class="lang-flag">🇫🇷</span> Français</a>
+                        <a href="../en/projects.html"><span class="lang-flag">🇬🇧</span> English</a>
+                    </div>
+                </div>
             </nav>
+            
+            <div class="menu-toggle">
+                <span></span><span></span><span></span>
+            </div>
         </div>
     </header>
-    <section class="page-header"><div class="container"><h1>Nos Projets</h1><p>Découvrez nos réalisations architecturales</p></div></section>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Nos Projets</h1>
+            <p>Découvrez nos réalisations architecturales</p>
+            <div class="breadcrumb">
+                <a href="index.html">Accueil</a>
+                <span>/</span>
+                <span>Projets</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Habitat Individuel Section -->
     <section class="section">
         <div class="container">
-            <div class="section-header"><h2 class="section-title">Habitat Individuel</h2></div>
+            <div class="section-header">
+                <div class="section-badge">
+                    <i class="fas fa-home"></i>
+                    <span>Habitat Individuel</span>
+                </div>
+                <h2 class="section-title">Projets Résidentiels Privés</h2>
+                <p class="section-subtitle">Villas et maisons individuelles conçues avec passion et précision</p>
+            </div>
+            
             <div class="projects-grid">
                 <div class="project-card">
-                    <div class="project-image" style="background: linear-gradient(135deg, #2d5a3d, #6b7b4f);"><i class="fas fa-home" style="font-size: 4rem; color: rgba(255,255,255,0.2);"></i></div>
-                    <div class="project-overlay"><span class="project-category">Villa</span><h4 class="project-title">Villa Moderne F4</h4><span class="project-location"><i class="fas fa-map-marker-alt"></i> Alger</span></div>
+                    <div class="project-image" style="background: linear-gradient(135deg, #2d5a3d, #6b7b4f);">
+                        <i class="fas fa-home" style="font-size: 4rem; color: rgba(255,255,255,0.2);"></i>
+                    </div>
+                    <div class="project-overlay">
+                        <span class="project-category">Villa</span>
+                        <h4 class="project-title">Villa Moderne F4</h4>
+                        <span class="project-location"><i class="fas fa-map-marker-alt"></i> Alger</span>
+                        <p class="project-description">Villa contemporaine de 220m² avec jardin et piscine</p>
+                    </div>
                 </div>
                 <div class="project-card">
-                    <div class="project-image" style="background: linear-gradient(135deg, #1a1a1a, #333);"><i class="fas fa-home" style="font-size: 4rem; color: rgba(255,255,255,0.2);"></i></div>
-                    <div class="project-overlay"><span class="project-category">Villa</span><h4 class="project-title">Villa Luxueuse F5</h4><span class="project-location"><i class="fas fa-map-marker-alt"></i> Oran</span></div>
+                    <div class="project-image" style="background: linear-gradient(135deg, #1a1a1a, #333);">
+                        <i class="fas fa-home" style="font-size: 4rem; color: rgba(255,255,255,0.2);"></i>
+                    </div>
+                    <div class="project-overlay">
+                        <span class="project-category">Villa</span>
+                        <h4 class="project-title">Villa Luxueuse F5</h4>
+                        <span class="project-location"><i class="fas fa-map-marker-alt"></i> Oran</span>
+                        <p class="project-description">Villa haut de gamme de 350m² avec vue mer</p>
+                    </div>
                 </div>
                 <div class="project-card">
-                    <div class="project-image" style="background: linear-gradient(135deg, #c9a962, #d4b87a);"><i class="fas fa-home" style="font-size: 4rem; color: rgba(0,0,0,0.2);"></i></div>
-                    <div class="project-overlay"><span class="project-category">Maison</span><h4 class="project-title">Maison Rustique</h4><span class="project-location"><i class="fas fa-map-marker-alt"></i> Tizi Ouzou</span></div>
+                    <div class="project-image" style="background: linear-gradient(135deg, #c9a962, #d4b87a);">
+                        <i class="fas fa-home" style="font-size: 4rem; color: rgba(0,0,0,0.2);"></i>
+                    </div>
+                    <div class="project-overlay">
+                        <span class="project-category">Maison</span>
+                        <h4 class="project-title">Maison Rustique</h4>
+                        <span class="project-location"><i class="fas fa-map-marker-alt"></i> Tizi Ouzou</span>
+                        <p class="project-description">Maison traditionnelle de 180m² en style kabyle</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- Habitat Collectif Section -->
     <section class="section section-light">
         <div class="container">
-            <div class="section-header"><h2 class="section-title">Habitat Collectif</h2></div>
+            <div class="section-header">
+                <div class="section-badge">
+                    <i class="fas fa-building"></i>
+                    <span>Habitat Collectif</span>
+                </div>
+                <h2 class="section-title">Projets Immobiliers</h2>
+                <p class="section-subtitle">Immeubles résidentiels et complexes immobiliers</p>
+            </div>
+            
             <div class="projects-grid">
                 <div class="project-card">
-                    <div class="project-image" style="background: linear-gradient(135deg, #1a1a1a, #333);"><i class="fas fa-building" style="font-size: 4rem; color: rgba(255,255,255,0.2);"></i></div>
-                    <div class="project-overlay"><span class="project-category">Collectif</span><h4 class="project-title">Complexe R+5</h4><span class="project-location"><i class="fas fa-map-marker-alt"></i> Oran</span></div>
+                    <div class="project-image" style="background: linear-gradient(135deg, #1a1a1a, #333);">
+                        <i class="fas fa-building" style="font-size: 4rem; color: rgba(255,255,255,0.2);"></i>
+                    </div>
+                    <div class="project-overlay">
+                        <span class="project-category">Collectif</span>
+                        <h4 class="project-title">Complexe R+5</h4>
+                        <span class="project-location"><i class="fas fa-map-marker-alt"></i> Oran</span>
+                        <p class="project-description">Immeuble de 24 appartements avec commerces en RDC</p>
+                    </div>
                 </div>
                 <div class="project-card">
-                    <div class="project-image" style="background: linear-gradient(135deg, #2d5a3d, #6b7b4f);"><i class="fas fa-building" style="font-size: 4rem; color: rgba(255,255,255,0.2);"></i></div>
-                    <div class="project-overlay"><span class="project-category">Collectif</span><h4 class="project-title">Immeuble R+4</h4><span class="project-location"><i class="fas fa-map-marker-alt"></i> Constantine</span></div>
+                    <div class="project-image" style="background: linear-gradient(135deg, #2d5a3d, #6b7b4f);">
+                        <i class="fas fa-building" style="font-size: 4rem; color: rgba(255,255,255,0.2);"></i>
+                    </div>
+                    <div class="project-overlay">
+                        <span class="project-category">Collectif</span>
+                        <h4 class="project-title">Immeuble R+4</h4>
+                        <span class="project-location"><i class="fas fa-map-marker-alt"></i> Constantine</span>
+                        <p class="project-description">Résidence de 16 appartements F3 et F4</p>
+                    </div>
                 </div>
                 <div class="project-card">
-                    <div class="project-image" style="background: linear-gradient(135deg, #c9a962, #d4b87a);"><i class="fas fa-building" style="font-size: 4rem; color: rgba(0,0,0,0.2);"></i></div>
-                    <div class="project-overlay"><span class="project-category">Promotion</span><h4 class="project-title">Projet Immobilier</h4><span class="project-location"><i class="fas fa-map-marker-alt"></i> Annaba</span></div>
+                    <div class="project-image" style="background: linear-gradient(135deg, #c9a962, #d4b87a);">
+                        <i class="fas fa-building" style="font-size: 4rem; color: rgba(0,0,0,0.2);"></i>
+                    </div>
+                    <div class="project-overlay">
+                        <span class="project-category">Promotion</span>
+                        <h4 class="project-title">Projet Immobilier</h4>
+                        <span class="project-location"><i class="fas fa-map-marker-alt"></i> Annaba</span>
+                        <p class="project-description">Complexe résidentiel de 40 logements</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="cta-section"><div class="container"><h2>Un projet similaire?</h2><p>Contactez-nous pour le concrétiser</p><a href="contact.html" class="btn btn-white">Contactez-nous</a></div></section>
-    <footer class="footer"><div class="container"><div class="footer-bottom"><p class="footer-copyright">© 2021-2026 MB Architecture and Design. Tous droits réservés.</p></div></div></footer>
+
+    <!-- Projets Commerciaux Section -->
+    <section class="section">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">
+                    <i class="fas fa-store"></i>
+                    <span>Projets Commerciaux</span>
+                </div>
+                <h2 class="section-title">Bâtiments Professionnels</h2>
+                <p class="section-subtitle">Locaux commerciaux, bureaux et espaces professionnels</p>
+            </div>
+            
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image" style="background: linear-gradient(135deg, #2d5a3d, #6b7b4f);">
+                        <i class="fas fa-store" style="font-size: 4rem; color: rgba(255,255,255,0.2);"></i>
+                    </div>
+                    <div class="project-overlay">
+                        <span class="project-category">Commerce</span>
+                        <h4 class="project-title">Centre Commercial</h4>
+                        <span class="project-location"><i class="fas fa-map-marker-alt"></i> Alger</span>
+                        <p class="project-description">Centre commercial de 5000m² avec parking</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image" style="background: linear-gradient(135deg, #1a1a1a, #333);">
+                        <i class="fas fa-briefcase" style="font-size: 4rem; color: rgba(255,255,255,0.2);"></i>
+                    </div>
+                    <div class="project-overlay">
+                        <span class="project-category">Bureaux</span>
+                        <h4 class="project-title">Immeuble de Bureaux</h4>
+                        <span class="project-location"><i class="fas fa-map-marker-alt"></i> Alger</span>
+                        <p class="project-description">Tour de bureaux R+8 moderne et économe</p>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image" style="background: linear-gradient(135deg, #c9a962, #d4b87a);">
+                        <i class="fas fa-utensils" style="font-size: 4rem; color: rgba(0,0,0,0.2);"></i>
+                    </div>
+                    <div class="project-overlay">
+                        <span class="project-category">Restaurant</span>
+                        <h4 class="project-title">Complexe Gastronomique</h4>
+                        <span class="project-location"><i class="fas fa-map-marker-alt"></i> Oran</span>
+                        <p class="project-description">Restaurant et espace événementiel de 800m²</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="section section-light">
+        <div class="container">
+            <div class="hero-stats" style="justify-content: center; gap: 60px;">
+                <div class="stat-item">
+                    <div class="stat-number">150+</div>
+                    <div class="stat-label">Projets Réalisés</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">12+</div>
+                    <div class="stat-label">Années d'Expérience</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">98%</div>
+                    <div class="stat-label">Clients Satisfaits</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">15+</div>
+                    <div class="stat-label">Villes Couvertes</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Un projet similaire en tête?</h2>
+            <p>Contactez-nous pour le concrétiser avec expertise</p>
+            <div class="hero-buttons" style="justify-content: center;">
+                <a href="contact.html" class="btn btn-white">
+                    <i class="fas fa-paper-plane"></i> Contactez-nous
+                </a>
+                <a href="tel:+213555000000" class="btn btn-gold">
+                    <i class="fas fa-phone"></i> Appelez directement
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">
+                        <div class="logo-icon">MB</div>
+                        <div class="logo-text">
+                            <span class="brand" style="color: white;">MB Architecture</span>
+                            <span class="tagline" style="color: rgba(255,255,255,0.6);">Design & Engineering</span>
+                        </div>
+                    </a>
+                    <p>Bureau d'études spécialisé en design architectural et ingénierie.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links-section">
+                    <h4 class="footer-title">Liens Rapides</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="about.html">À Propos</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="projects.html">Projets</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links-section">
+                    <h4 class="footer-title">Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="services.html">Design Architectural</a></li>
+                        <li><a href="services.html">Modélisation 3D</a></li>
+                        <li><a href="services.html">Permis de Construire</a></li>
+                        <li><a href="services.html">Design Intérieur</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h4 class="footer-title">Contact</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> Alger, Algérie</p>
+                    <p><i class="fas fa-phone"></i> +213 555 000 000</p>
+                    <p><i class="fas fa-envelope"></i> contact@mbarchitecture.dz</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p class="footer-copyright">© 2021-2026 MB Architecture and Design. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
     <script src="../assets/js/app.js"></script>
 </body>
 </html>

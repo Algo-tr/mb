@@ -3,16 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contactez MB Architecture and Design - Bureau d'études d'ingénierie agréé à Alger. Consultation gratuite.">
     <title>Contact - MB Architecture and Design</title>
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body>
+    <!-- Header -->
     <header class="header">
         <div class="container">
-            <a href="index.html" class="logo"><div class="logo-icon">MB</div><div class="logo-text"><span class="brand">MB Architecture</span><span class="tagline">Design & Engineering</span></div></a>
+            <a href="index.html" class="logo">
+                <div class="logo-icon">MB</div>
+                <div class="logo-text">
+                    <span class="brand">MB Architecture</span>
+                    <span class="tagline">Design & Engineering</span>
+                </div>
+            </a>
+            
             <nav class="nav-menu">
                 <ul class="nav-links">
                     <li><a href="index.html">Accueil</a></li>
@@ -22,20 +33,233 @@
                     <li><a href="process.html">Processus</a></li>
                     <li><a href="pricing.html">Tarifs</a></li>
                     <li><a href="docs.html">Documents</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
                 </ul>
-                <div class="lang-selector"><span class="lang-flag">🇫🇷</span><span class="lang-current">FR</span></div>
+                
+                <div class="lang-selector">
+                    <span class="lang-flag">🇫🇷</span>
+                    <span class="lang-current">FR</span>
+                    <div class="lang-dropdown">
+                        <a href="../ar/contact.html"><span class="lang-flag">🇩🇿</span> العربية</a>
+                        <a href="contact.html"><span class="lang-flag">🇫🇷</span> Français</a>
+                        <a href="../en/contact.html"><span class="lang-flag">🇬🇧</span> English</a>
+                    </div>
+                </div>
             </nav>
+            
+            <div class="menu-toggle">
+                <span></span><span></span><span></span>
+            </div>
         </div>
     </header>
-    <section class="page-header"><div class="container"><h1>Contact</h1></div></section>
-    <section class="section">
+
+    <!-- Page Header -->
+    <section class="page-header">
         <div class="container">
-            <div class="section-header"><h2 class="section-title">MB Architecture and Design</h2><p class="section-subtitle">Bureau d'études d'ingénierie agréé - Alger, Algérie</p></div>
+            <h1>Contactez-nous</h1>
+            <p>Nous sommes à votre écoute pour tous vos projets</p>
+            <div class="breadcrumb">
+                <a href="index.html">Accueil</a>
+                <span>/</span>
+                <span>Contact</span>
+            </div>
         </div>
     </section>
-    <section class="cta-section"><div class="container"><h2>Contactez-nous</h2><a href="contact.html" class="btn btn-white">Contact</a></div></section>
-    <footer class="footer"><div class="container"><div class="footer-bottom"><p class="footer-copyright">© 2021-2026 MB Architecture and Design. Tous droits réservés.</p></div></div></footer>
+
+    <!-- Contact Section -->
+    <section class="section">
+        <div class="container">
+            <div class="ps-grid">
+                <!-- Contact Info -->
+                <div class="ps-content">
+                    <div class="section-badge" style="margin-bottom: 20px;">
+                        <i class="fas fa-headset"></i>
+                        <span>Restons en Contact</span>
+                    </div>
+                    <h2>MB Architecture and Design</h2>
+                    <p style="color: #2d5a3d; margin-bottom: 30px;">Bureau d'Études d'Ingénierie Agréé</p>
+                    
+                    <div class="contact-info-cards" style="display: grid; gap: 20px;">
+                        <div class="why-card" style="padding: 20px;">
+                            <div class="why-icon"><i class="fas fa-map-marker-alt"></i></div>
+                            <h4>Adresse</h4>
+                            <p>Alger, Algérie<br>Centre-ville, 16000</p>
+                        </div>
+                        
+                        <div class="why-card" style="padding: 20px;">
+                            <div class="why-icon"><i class="fas fa-phone"></i></div>
+                            <h4>Téléphone</h4>
+                            <p>+213 555 000 000<br>+213 555 111 111</p>
+                        </div>
+                        
+                        <div class="why-card" style="padding: 20px;">
+                            <div class="why-icon"><i class="fas fa-envelope"></i></div>
+                            <h4>Email</h4>
+                            <p>contact@mbarchitecture.dz<br>info@mbarchitecture.dz</p>
+                        </div>
+                        
+                        <div class="why-card" style="padding: 20px;">
+                            <div class="why-icon"><i class="fas fa-clock"></i></div>
+                            <h4>Horaires</h4>
+                            <p>Dimanche - Jeudi: 9h - 17h<br>Vendredi - Samedi: Fermé</p>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links" style="margin-top: 30px;">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                
+                <!-- Contact Form -->
+                <div class="hero-visual">
+                    <div class="hero-image-wrapper">
+                        <div style="background: white; padding: 40px; border-radius: 20px; box-shadow: 0 10px 40px rgba(0,0,0,0.1);">
+                            <h3 style="margin-bottom: 30px; color: #1a1a1a; font-size: 1.5rem;">
+                                <i class="fas fa-paper-plane" style="color: #2d5a3d; margin-left: 10px;"></i>
+                                Envoyez-nous un message
+                            </h3>
+                            <form action="#" method="POST" class="contact-form">
+                                <div style="margin-bottom: 20px;">
+                                    <label style="display: block; margin-bottom: 8px; font-weight: 600; color: #333;">Nom Complet *</label>
+                                    <input type="text" name="name" required placeholder="Votre nom complet" style="width: 100%; padding: 12px 16px; border: 2px solid #e8e8e8; border-radius: 10px; font-size: 1rem; transition: border-color 0.3s;">
+                                </div>
+                                
+                                <div style="margin-bottom: 20px;">
+                                    <label style="display: block; margin-bottom: 8px; font-weight: 600; color: #333;">Email *</label>
+                                    <input type="email" name="email" required placeholder="votre@email.com" style="width: 100%; padding: 12px 16px; border: 2px solid #e8e8e8; border-radius: 10px; font-size: 1rem; transition: border-color 0.3s;">
+                                </div>
+                                
+                                <div style="margin-bottom: 20px;">
+                                    <label style="display: block; margin-bottom: 8px; font-weight: 600; color: #333;">Téléphone</label>
+                                    <input type="tel" name="phone" placeholder="+213 XXX XXX XXX" style="width: 100%; padding: 12px 16px; border: 2px solid #e8e8e8; border-radius: 10px; font-size: 1rem; transition: border-color 0.3s;">
+                                </div>
+                                
+                                <div style="margin-bottom: 20px;">
+                                    <label style="display: block; margin-bottom: 8px; font-weight: 600; color: #333;">Type de Projet</label>
+                                    <select name="project_type" style="width: 100%; padding: 12px 16px; border: 2px solid #e8e8e8; border-radius: 10px; font-size: 1rem; background: white; cursor: pointer;">
+                                        <option value="">Sélectionnez un type</option>
+                                        <option value="villa">Villa / Maison Individuelle</option>
+                                        <option value="collectif">Habitat Collectif</option>
+                                        <option value="commercial">Projet Commercial</option>
+                                        <option value="interieur">Design Intérieur</option>
+                                        <option value="permis">Permis de Construire</option>
+                                        <option value="autre">Autre</option>
+                                    </select>
+                                </div>
+                                
+                                <div style="margin-bottom: 20px;">
+                                    <label style="display: block; margin-bottom: 8px; font-weight: 600; color: #333;">Message *</label>
+                                    <textarea name="message" required rows="5" placeholder="Décrivez votre projet..." style="width: 100%; padding: 12px 16px; border: 2px solid #e8e8e8; border-radius: 10px; font-size: 1rem; resize: vertical; transition: border-color 0.3s;"></textarea>
+                                </div>
+                                
+                                <button type="submit" class="btn btn-primary" style="width: 100%; padding: 15px; font-size: 1.1rem;">
+                                    <i class="fas fa-paper-plane"></i>
+                                    Envoyer le Message
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section Placeholder -->
+    <section class="section section-light">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-badge">
+                    <i class="fas fa-map"></i>
+                    <span>Localisation</span>
+                </div>
+                <h2 class="section-title">Où nous trouver</h2>
+            </div>
+            
+            <div style="background: linear-gradient(135deg, #2d5a3d, #6b7b4f); height: 400px; border-radius: 20px; display: flex; align-items: center; justify-content: center; color: white;">
+                <div style="text-align: center;">
+                    <i class="fas fa-map-marked-alt" style="font-size: 4rem; margin-bottom: 20px; opacity: 0.8;"></i>
+                    <h3>Alger, Algérie</h3>
+                    <p style="opacity: 0.8;">Centre-ville, 16000</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Consultation Gratuite</h2>
+            <p>Appelez-nous directement pour discuter de votre projet</p>
+            <div class="hero-buttons" style="justify-content: center;">
+                <a href="tel:+213555000000" class="btn btn-white">
+                    <i class="fas fa-phone"></i> +213 555 000 000
+                </a>
+                <a href="https://wa.me/213555000000" class="btn btn-gold" target="_blank">
+                    <i class="fab fa-whatsapp"></i> WhatsApp
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">
+                        <div class="logo-icon">MB</div>
+                        <div class="logo-text">
+                            <span class="brand" style="color: white;">MB Architecture</span>
+                            <span class="tagline" style="color: rgba(255,255,255,0.6);">Design & Engineering</span>
+                        </div>
+                    </a>
+                    <p>Bureau d'études spécialisé en design architectural et ingénierie.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links-section">
+                    <h4 class="footer-title">Liens Rapides</h4>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="about.html">À Propos</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="projects.html">Projets</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links-section">
+                    <h4 class="footer-title">Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="services.html">Design Architectural</a></li>
+                        <li><a href="services.html">Modélisation 3D</a></li>
+                        <li><a href="services.html">Permis de Construire</a></li>
+                        <li><a href="services.html">Design Intérieur</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h4 class="footer-title">Contact</h4>
+                    <p><i class="fas fa-map-marker-alt"></i> Alger, Algérie</p>
+                    <p><i class="fas fa-phone"></i> +213 555 000 000</p>
+                    <p><i class="fas fa-envelope"></i> contact@mbarchitecture.dz</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p class="footer-copyright">© 2021-2026 MB Architecture and Design. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
     <script src="../assets/js/app.js"></script>
 </body>
 </html>
