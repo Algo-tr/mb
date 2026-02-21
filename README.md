@@ -113,7 +113,7 @@ The site is ready for deployment on GitHub Pages. Simply enable GitHub Pages in 
 
 | | |
 |---|---|
-| 📍 **Location** | Algiers, Algeria |
+| 📍 **Location** | Algiers, Setif |
 | 📱 **Phone** | +213 555 000 000 |
 | 📧 **Email** | contact@mbarchitecture.dz |
 | 🕐 **Hours** | Sunday - Thursday: 9:00 - 17:00 |
